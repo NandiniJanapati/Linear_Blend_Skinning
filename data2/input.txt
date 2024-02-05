@@ -1,0 +1,33 @@
+# Each line starts with a keyword:
+# - TEXTURE <texture file>
+# - MESH <obj file> <skin file> <texture file>
+# - SKELETON <skeleton file>
+# Alpha blending is used to render the mouth, eyes, and brows. Since the brows mesh covers the eyes mesh,
+# the brows mesh should be rendered after the eyes mesh.
+TEXTURE Uriel_diffuse.png
+MESH Uriel_Body.obj Uriel_Body_skin.txt Uriel_diffuse.png
+MESH Uriel_FrontFlag.obj Uriel_FrontFlag_skin.txt Uriel_diffuse.png
+# MESH Uriel_FrontFlap.obj Uriel_FrontFlag_skin.txt Uriel_diffuse.png
+# The Front Flap seems to mess with the animation?
+MESH Uriel_head.obj Uriel_head_skin.txt Uriel_diffuse.png
+MESH Uriel_KneeGuard.obj Uriel_KneeGuard_skin.txt Uriel_diffuse.png
+MESH Uriel_KneeGuard2.obj Uriel_KneeGuard2_skin.txt Uriel_diffuse.png
+MESH Uriel_LeftArm.obj Uriel_LeftArm_skin.txt Uriel_diffuse.png
+MESH Uriel_LeftShoulder.obj Uriel_LeftShoulder_skin.txt Uriel_diffuse.png
+MESH Uriel_RightArm.obj Uriel_RightArm_skin.txt Uriel_diffuse.png
+MESH Uriel_RightShoulder.obj Uriel_RightShoulder_skin.txt Uriel_diffuse.png
+MESH Uriel_RightWristGuard.obj Uriel_RightWristGuard_skin.txt Uriel_diffuse.png
+MESH Uriel_SpikySkirt.obj Uriel_SpikySkirt_skin.txt Uriel_diffuse.png
+# meshes I couldn't really tell what they were for vv
+MESH Uriel_polySurface1.obj Uriel_polySurface1_skin.txt Uriel_diffuse.png
+MESH Uriel_polySurface8.obj Uriel_polySurface8_skin.txt Uriel_diffuse.png
+MESH Uriel_polySurface14.obj Uriel_polySurface14_skin.txt Uriel_diffuse.png
+MESH Uriel_polySurface15.obj Uriel_polySurface15_skin.txt Uriel_diffuse.png
+MESH Uriel_polySurface19.obj Uriel_polySurface19_skin.txt Uriel_diffuse.png
+MESH Uriel_polySurface20.obj Uriel_polySurface20_skin.txt Uriel_diffuse.png
+MESH Uriel_polySurface22.obj Uriel_polySurface22_skin.txt Uriel_diffuse.png
+MESH Uriel_polySurface23.obj Uriel_polySurface23_skin.txt Uriel_diffuse.png
+MESH Uriel_Sphere.obj Uriel_Sphere_skin.txt Uriel_diffuse.png
+MESH Uriel_Sphere2.obj Uriel_Sphere2_skin.txt Uriel_diffuse.png
+SKELETON Catwalk_Walking_skel.txt
+
